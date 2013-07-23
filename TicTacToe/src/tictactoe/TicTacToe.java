@@ -17,5 +17,12 @@ public class TicTacToe {
         // TODO code application logic here
         Field field = new Field();
         field.showFieldAll();
+        field.setOinFieldXY(1, 2);
+        field.setOinFieldXY(2, 2);
+        field.setOinFieldXY(3, 2);
+        field.showFieldAll();
+        field.setXinFieldXY(3, 1);
+        field.showFieldAll();
+        field.isOWin();
     }
 }
